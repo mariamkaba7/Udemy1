@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-30T14:51:57 EDT" name="Default suite" finished-at="2023-03-30T14:51:57 EDT" duration-ms="43">
+    <groups>
+    </groups>
+    <test started-at="2023-03-30T14:51:57 EDT" name="Default test" finished-at="2023-03-30T14:51:57 EDT" duration-ms="43">
+      <class name="test.Parameterization">
+        <test-method signature="mobileSigOutCarLoan(java.lang.String,java.lang.String)[pri:0, instance:test.Parameterization@40cb8df7]" started-at="2023-03-30T14:51:57 EDT" name="mobileSigOutCarLoan" data-provider="getData" finished-at="2023-03-30T14:51:57 EDT" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileSigOutCarLoan -->
+        <test-method signature="mobileSigOutCarLoan(java.lang.String,java.lang.String)[pri:0, instance:test.Parameterization@40cb8df7]" started-at="2023-03-30T14:51:57 EDT" name="mobileSigOutCarLoan" data-provider="getData" finished-at="2023-03-30T14:51:57 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SecondPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileSigOutCarLoan -->
+        <test-method signature="mobileSigOutCarLoan(java.lang.String,java.lang.String)[pri:0, instance:test.Parameterization@40cb8df7]" started-at="2023-03-30T14:51:57 EDT" name="mobileSigOutCarLoan" data-provider="getData" finished-at="2023-03-30T14:51:57 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdtUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileSigOutCarLoan -->
+      </class> <!-- test.Parameterization -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
